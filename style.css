@@ -1,0 +1,107 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.content{
+    width: 70%;
+    margin:auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav>div:nth-child(1){
+    font-size: 24px;
+    font-weight:bolder;
+    color: #F9FAF8;
+
+}
+
+.nav>div:nth-child(2){
+    display: flex;
+    color:rgb(164, 163, 163);
+    gap:30px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px 100px 0px;
+}
+
+.about>div{
+    width: 45%;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    margin:0px;
+    padding:0px;
+}
+
+.hero+p{
+    margin:0px;
+    color:rgb(164, 163, 163);
+    margin-bottom: 10px;
+}
+
+.about>div:nth-child(2){
+    background-color: rgb(126, 126, 126);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+
+/* 
+container data starts */
+
+.container{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 75px;;
+}
+
+h2{
+    margin:40px;
+}
+
+.product{
+    width: 65%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.cards{
+    color: grey;
+    width:150px;
+}
+
+.cards>div{
+    height: 150px;
+    width:150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+
+
+
+
